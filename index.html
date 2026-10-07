@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
+    <title>Filipe BCIT Project</title>
     <meta name="comp1800 template" content="My 1800 App">
 
     <!-- Required meta tags -->
@@ -20,13 +20,85 @@
     <!------------------------------>
     <!-- Stuff for body goes here -->
 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo(1).png" height="36">
+                App
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trails</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Saved</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="/images/logo(1).png" alt=""
+            width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">Find Your Next Hike</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Discover scenic trails, save your favorite routes, and plan your next outdoor adventure
+                with a hiking app built for explorers.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+                    class="btn btn-primary btn-lg px-4 gap-3">Start Exploring</button> <button type="button"
+                    class="btn btn-outline-secondary btn-lg px-4">View Trails</button> </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center mb-4">Popular Hikes</h1>
+
+        <div class="card-group gap-4">
+
+            <div class="card" style="width: 18rem;">
+                <img src="/images/hike1.jpg" class="card-img-top" alt="hike1">
+                <div class="card-body">
+                    <p class="card-text">Forest Ridge Trail a moderate climb with panoramic lookout points and a
+                        refreshing mountain breeze.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="/images/hike2.jpg" class="card-img-top" alt="hike1">
+                <div class="card-body">
+                    <p class="card-text">Lake Loop Path an easy scenic walk around a bright blue lake, perfect for a
+                        relaxed afternoon hike.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="/images/hike3.jpg" class="card-img-top" alt="hike1">
+                <div class="card-body">
+                    <p class="card-text">Summit Pass Route a challenging trail with steep switchbacks, rocky terrain,
+                        and a rewarding summit view.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
